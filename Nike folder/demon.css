@@ -1,0 +1,33 @@
+
+
+
+.coco{
+    color: white;
+    background-color: blue;
+        width: 539px;
+        text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.lucky{
+   width: 539px;
+    height: 32px;  
+}
+.chile{
+width: 539px;
+height: 32px;
+}
+.group{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+align-items: center;
+}
+.group div{
+    width: 50%;
+}
+input{
+    width: 50%;
+    border-color: black;
+}

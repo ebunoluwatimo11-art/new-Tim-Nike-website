@@ -1,0 +1,122 @@
+.red{
+    background-color: #ff7676;
+    width: 371px;
+    height: 405px;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+}
+.red p{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+
+
+}
+.greenpinkblue{
+        margin-left: 15px;
+}
+.green{
+    background-color: #c2ff76;
+    width: 812px;
+    height: 165px; 
+}
+.pink{
+ background-color: #ff9bf7;
+ width: 400px;
+ height: 220px;
+}
+.blue1,.blue2{
+    background-color: #9ba4ff;
+    width: 380px;
+    height: 100px;
+}
+.blue2{
+    margin-top: 19.5px;
+    
+}
+.blues{
+    margin-left: 30px;
+}
+
+.pb{
+    margin-top: 20px;
+    display: flex;
+}
+
+.general{
+    display: flex;
+}
+
+
+body{
+    background-color:#d0d0d0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .green{
+    background-color: chartreuse;
+       width: 456px;
+    height: 76px;
+    margin-top: -139px;
+}
+.pink{
+    background-color: palevioletred;
+  width: 244px;
+    height: 220px;
+    margin-left: -454px;
+        margin-right: 57px;
+            margin-top: -34px;
+}
+.blue2{
+    background-color: blue;
+    width: 155px;
+    height: 92px;
+}
+.greenpinkblue{
+    display: flex;
+    padding-left: 249px;
+
+}
+.blue1{
+    background-color: blue;
+    width: 155px;
+    height: 110px;
+        margin-bottom: 18px;
+}
+.blues{
+    margin-top: -32px;
+        margin-left: -44px;
+} */

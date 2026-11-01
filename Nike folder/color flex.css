@@ -1,0 +1,79 @@
+.purple {
+    background-color: purple;
+    width: 413px;
+    height: 30px;
+}
+.yellow{
+    width: 159px;
+    height: 111px;
+    background-color: yellow;
+}
+.red{
+    width: 159px;
+    height: 91px;
+    background-color: red;
+        margin-top: 10px;
+}
+.cyan{
+    background-color: cyan;
+    width: 244px;
+    height: 214px;
+        margin-top: 10px;
+        margin-left: 10px;
+}
+.yellowredcyan{
+    display: flex;
+}
+.yellowred{
+    margin-top: 10px;
+}
+.RED2{
+    width: 269px;
+    height:72px;
+    background-color: red;
+    margin-top: -4pxz;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+}
+.CYAN2{
+    height: 45px;
+    width: 269px;
+background-color: cyan;
+margin-top: 9px;
+}
+.YELLOW2{
+    width: 269px;
+    height: 67px;
+background-color: yellow;
+margin-top: 24px;
+}
+.F2{
+  display: flex;
+  justify-content: space-around;  
+}
+.CYAN3{
+width:294px ;
+height:87px ; 
+background-color: cyan;
+margin-top: 0px;
+}
+.YELLOW3{
+width:294px ;
+height:63px ;
+background-color: yellow;
+margin-top: 15px;
+}
+.RED3{
+width:293px ;
+height: 42px;
+background-color:red ;
+margin-top: 15px;
+}
+.RCO{
+width: 50%;
+}
+.COR{
+    width: 50%;
+}

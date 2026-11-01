@@ -1,0 +1,188 @@
+<body>
+    <!-- HEADER -->
+    <header class="yt-header">
+        <div class="left">
+            <div class="menu-icon"></div>
+            <div class="logo"></div>
+        </div>
+
+        <div class="center">
+            <input type="text" class="search" placeholder="Search">
+            <button class="search-btn">🔍</button>
+        </div>
+
+        <div class="right">
+            <div class="icon"></div>
+            <div class="icon"></div>
+            <div class="profile"></div>
+        </div>
+        <style>
+            /* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/* HEADER */
+.yt-header {
+    height: 56px; /* EXACT YouTube header height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.left, .center, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Fake icons so layout matches */
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    background: #ccc;
+}
+
+.logo {
+    width: 90px;
+    height: 20px;
+    background: #ddd;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background: #ccc;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    background: #bbb;
+    border-radius: 50%;
+}
+
+/* Search bar */
+.search {
+    width: 500px; /* EXACT YouTube width */
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-btn {
+    height: 40px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background: #f8f8f8;
+    border-radius: 0 20px 20px 0;
+}
+
+/* MAIN LAYOUT */
+.layout {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 240px; /* EXACT YouTube sidebar width */
+    padding: 20px 0;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* VIDEO GRID */
+.video-grid {
+    flex: 1;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* EXACT YouTube card width */
+    gap: 32px;
+}
+
+/* VIDEO CARD */
+.video-card {
+    width: 100%;
+}
+
+.thumb {
+    width: 100%;
+    height: 180px; /* EXACT YouTube thumbnail height */
+    background: #ddd;
+    border-radius: 12px;
+}
+
+.info {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.channel-pic {
+    width: 36px;
+    height: 36px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.channel, .stats {
+    font-size: 14px;
+    color: #606060;
+}
+
+        </style>
+    </header>
+
+    <!-- MAIN -->
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <nav class="sidebar">
+            <a class="item">Home</a>
+            <a class="item">Shorts</a>
+            <a class="item">Subscriptions</a>
+            <hr>
+            <a class="item">Library</a>
+            <a class="item">History</a>
+        </nav>
+
+        <!-- VIDEO GRID -->
+        <div class="video-grid">
+
+            <!-- COPY THIS CARD -->
+            <div class="video-card">
+                <div class="thumb"></div>
+
+                <div class="info">
+                    <div class="channel-pic"></div>
+
+                    <div class="text">
+                        <h3 class="title">Video Title</h3>
+                        <p class="channel">Channel Name</p>
+                        <p class="stats">Views • Time</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>

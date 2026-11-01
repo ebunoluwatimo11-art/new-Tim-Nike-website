@@ -1,0 +1,94 @@
+.funshinebear {
+  font-size: 20px;
+}
+
+.tenderheartbear img {
+  width: 77px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-box {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.search-box input[type="text"] {
+
+
+
+  text-indent: 30px;
+}
+
+
+.search-box input {
+  width: 123%;
+  padding: 10px 40px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+
+}
+
+.search-box input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-box i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+
+.search-box i:hover {
+  color: #007bff;
+}
+
+.amercabear{
+margin-left: 8%;
+font-size: 20px;
+}
+.create{
+  display: flex;
+  margin-left: 25%;
+  align-items: center;
+gap: 0.5rem;
+background-color: #f2f2f2;
+border-radius: 37px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.cr{
+  font-weight: 900;
+}
+.fa-plus{
+  font-size: 20px;
+}
+.astro img{
+    width: 80%;
+    border-radius: 50%;
+    height: 50px;
+}
+.astro1{
+    font-size: 20px;
+}
+.astro{
+  width: 5%;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        .FF {
+            text-align: center;
+            font-family: "Corinthia", cursive;
+            font-size: 30px;
+            color: white;
+            font-weight: 900;
+        }
+
+        .all {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .input1 {
+            width: 90%;
+            height: 35%;
+            margin-bottom: 45px;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            background-color: transparent;
+            border-color: white;
+            border-width: 3px;
+            font-size: 25px;
+            color: white;
+        }
+
+        .input1:focus {
+            outline: none;
+        }
+
+        .inputs {
+            width: 75%;
+        }
+
+        ::placeholder {
+            font-size: 35px;
+            color: white;
+            font-family: "Corinthia", cursive;
+            font-weight: 900;
+        }
+
+        body {
+            background-color: #e74c3c;
+        }
+
+        .checkbox {
+            transform: scale(2.1);
+            margin-left: 13%;
+        }
+
+        .inputs2 {
+            display: flex;
+        }
+
+        .inputs2 p {
+            margin-left: 13px;
+            color: white;
+            font-family: "Corinthia", cursive;
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+        .all2 {
+            margin-top: 3%;
+        }
+
+        Button {
+            margin-left: 12%;
+            width: 69%;
+            height: 50%;
+            background-color: hsl(210deg 29.03% 24.31%);
+            color: white;
+            font-family: "Corinthia", cursive;
+            font-size: 30px;
+            font-weight: 900;
+            border: none;
+            animation-name: Button;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+
+
+        }
+
+        Button:hover {
+            background-color: #314961de;
+        }
+        Button p{
+            animation-name: ButtonP;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 6s;
+        }
+
+
+        @keyframes Button {
+            from {
+                margin-top: 25px;
+            }
+
+            to {
+                margin-top: 0px;
+            }
+
+        }
+        @keyframes ButtonP{
+            0%{
+                margin-left: 0px;
+            }
+            25%{
+                margin-left: -100px;
+            }
+            50%{
+                margin-left: 0px;
+            }
+            75%{
+                margin-left: 100px;
+            }
+            100%{
+                margin-left: 0px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="FF">
+        <H2>Fancy Forms</H2>
+    </div>
+    <div class="all">
+        <div class="inputs">
+            <input class="input1" type="" placeholder="Username"> <br>
+            <input class="input1" type="password" name="" id="" placeholder="Password">
+        </div>
+    </div><br>
+    <div class="all2">
+        <label class="inputs2">
+            <input class="checkbox" type="checkbox" name="" id="">
+            <p> Male</p>
+        </label>
+
+        <label class="inputs2">
+            <input class="checkbox" type="checkbox" name="" id="">
+            <p> Female</p>
+        </label>
+
+        <div class="Button">
+            <div>
+                <button>
+                    <p>Sign Up</p>
+                </button>
+
+            </div>
+        </div>
+
+</body>
+
+</html>

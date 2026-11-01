@@ -1,0 +1,477 @@
+.Iconp {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Firstheader {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  align-items: center;
+}
+
+.Icon {
+  width: 60%;
+}
+
+.converse {
+  margin-left: 30px;
+}
+
+body {
+  font-family: poppins;
+}
+
+.Iconh1 {
+  font-size: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+}
+
+.Iconh1 :hover {
+  border: solid 2px black;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  transition: ease-in-out;
+}
+
+.Secondheader {
+  justify-content: center;
+  display: flex;
+  padding-left: 41px;
+}
+
+.search-box {
+  position: relative;
+  width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.search-box input[type="text"] {
+
+
+
+  text-indent: 30px;
+}
+
+.search-box input {
+  width: 50%;
+  padding: 10px 40px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.search-box input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-box i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.search-box i:hover {
+  color: #007bff;
+}
+
+.nikelogo img {
+  width: 60%;
+}
+
+.divlogo img {
+  width: 25%;
+}
+
+.divlogo {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+#player {
+  width: 100%;
+}
+
+.flaws {
+  font-size: 40px;
+  position: absolute;
+  margin-top: -409px;
+  color: #f6f6f6;
+  margin-left: 17%;
+  text-align: center;
+}
+
+.flaws h1 {
+  font-size: 100px;
+  font-weight: 900 !important;
+
+}
+
+.flaws p {
+  margin-top: -91px;
+  font-size: 28px;
+}
+
+.flaws button {
+  border-radius: 20px;
+  width: 7.5%;
+  height: 36px;
+  border: none;
+  margin-top: 3px;
+  font-size: 19px;
+}
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.man {
+  width: 50%;
+}
+
+.cc {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.james img {
+  width: 100%;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  width: 98%;
+  border-radius: 4px;
+}
+
+.all img {
+  width: 100%;
+  height: 500px;
+}
+
+.image6 {
+  width: 33%;
+}
+
+.image7 {
+  width: 33%;
+}
+
+.image8 {
+  width: 33%;
+}
+
+.ffot {
+  margin-left: 42px;
+  font-size: 20px;
+}
+
+.Foltyn img {
+  width: 100%;
+
+}
+
+.allison {
+  border-radius: 1000px;
+  width: 8.5%;
+  height: 46px;
+  border: none;
+  margin-top: 3px;
+  font-size: 17px;
+  background-color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.Secondheader {
+  justify-content: center;
+  display: flex;
+  padding-left: 41px;
+}
+
+.nikelogo img {
+  width: 60%;
+}
+
+.Iconh1 {
+  font-size: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+}
+
+.Nora {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* TOP HEADER */
+  .Iconp,
+  .Icon,
+  .search-box,
+  .divlogo,
+  .mobile-menu,
+  .Iconh2 {
+    display: none;
+  }
+
+  .Iconp {
+    display: none;
+  }
+
+  .Icon {
+    display: none;
+  }
+
+  .Secondheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    position: relative;
+    z-index: 2000;
+  }
+
+  .nikelogo {
+    width: 70px;
+  }
+
+  .nikelogo img {
+    width: 100%;
+  }
+
+  .Nora {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 22px;
+  }
+
+  .menu-icon {
+    position: relative;
+    z-index: 3000;
+    cursor: pointer;
+  }
+
+  /* MOBILE MENU */
+
+  .Iconh1 {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    transition: 0.4s ease;
+    z-index: 2500;
+  }
+
+  .Iconh1.open {
+    right: 0;
+  }
+
+  .Iconh1 h1,
+  .Iconh1 a {
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+
+
+  .overall2 {
+    flex-direction: column;
+  }
+
+
+
+  .david {
+    margin-top: -243px;
+  }
+
+  .flaws {
+    font-size: 40px;
+    position: absolute;
+    margin-top: -431px;
+    color: #f6f6f6;
+    margin-left: 27%;
+    text-align: center;
+  }
+
+
+  .flaws h1 {
+    font-size: 7vw;
+    font-weight: 900 !important;
+    margin-left: -105px
+  }
+
+  .flaws p {
+    margin-top: 7px;
+    font-size: 15px;
+    margin-left: -3px;
+    width: 67%;
+  }
+
+  .flaws button {
+    border-radius: 20px;
+    width: 19.5%;
+    /* height: 36px; */
+    border: none;
+    margin-top: 0px !important;
+    font-size: 15px;
+    margin-left: -76px;
+    position: absolute;
+  }
+
+  .image-row {
+    margin-top: -253px;
+  }
+
+  .kv {
+    border-radius: 20px;
+    width: 40%;
+    height: 36px;
+    border: none;
+    margin-top: 19px;
+    font-size: 17px;
+    margin-left: 20px;
+  }
+
+  .small-text {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .big-text {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    transform: translateX(-50%);
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    margin-left: 30px;
+    top: 71px;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+
+
+  .david {
+    pointer-events: none;
+    position: relative;
+    /* make sure it has position too */
+    z-index: 1;
+  }
+.all{
+      flex-direction: column;
+    padding: 5px;
+
+}
+.image6{
+      width: 100%;
+}
+  .image7{
+        width: 100%;
+  }
+.image8{
+      width: 100%;
+}
+  .new {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .men {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .men6 {
+    padding-left: 20px;
+  }
+
+  .kid {
+    text-decoration: none;
+    color: black;
+  }
+
+  .jordan {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .women {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* .idk2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .cc{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    
+  } */
+
+
+
+}
